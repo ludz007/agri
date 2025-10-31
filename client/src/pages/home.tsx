@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import logoUrl from "@assets/logo_1761907435635.png";
+import farmerImage from "@assets/stock_images/professional_farmer__922a467e.jpg";
 
 const services = [
   {
@@ -360,16 +361,20 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <Card className="p-8 bg-gradient-to-br from-primary/10 to-orange/10">
-                <div className="text-center space-y-6">
-                  <div className="inline-flex items-center justify-center rounded-full bg-primary/20 p-4">
-                    <Users className="h-12 w-12 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold mb-2">
+              <div className="relative rounded-lg overflow-hidden">
+                <img
+                  src={farmerImage}
+                  alt="Professional agricultural consultant inspecting crops"
+                  className="w-full h-auto rounded-lg"
+                  data-testid="img-farmer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
+                <Card className="absolute bottom-0 left-0 right-0 m-6 p-6 bg-background/95 backdrop-blur-sm">
+                  <div className="text-center space-y-4">
+                    <h3 className="text-xl font-bold">
                       Ready to Get Started?
                     </h3>
-                    <p className="text-muted-foreground mb-6">
+                    <p className="text-muted-foreground text-sm">
                       Book a consultation with our expert consultant and ensure
                       your farm meets all compliance standards.
                     </p>
@@ -389,8 +394,8 @@ export default function Home() {
                       </a>
                     </Button>
                   </div>
-                </div>
-              </Card>
+                </Card>
+              </div>
             </motion.div>
           </div>
         </div>
