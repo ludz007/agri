@@ -35,7 +35,7 @@ const services = [
     icon: BookOpen,
     title: "Induction Training Pack",
     description:
-      "Complete training materials and programs to onboard new staff with proper compliance understanding.",
+      "Develop and provide a comprehensive induction training pack designed for all farm employees, ensuring they gain the required compliance knowledge for SIZA and GlobalG.A.P. standards.",
   },
   {
     icon: FileText,
@@ -524,7 +524,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 border-t">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <img
