@@ -571,19 +571,6 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-
-            <div>
-              <h4 className="font-semibold mb-4">Contact</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>+27 81 725 1048</li>
-                <li>auditcc.at@gmail.com</li>
-                <li className="pt-2">
-                  <Badge variant="secondary" className="bg-primary/10 text-primary hover:bg-primary/20">
-                    Available for Consultations
-                  </Badge>
-                </li>
-              </ul>
-            </div>
           </div>
 
           <div className="pt-8 border-t text-center text-sm text-muted-foreground">
