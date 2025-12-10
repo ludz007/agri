@@ -35,7 +35,7 @@ const services = [
     icon: BookOpen,
     title: "Induction Training Pack",
     description:
-      "Develop and provide a comprehensive induction training pack designed for all farm employees, ensuring they gain the required compliance knowledge for SIZA and GlobalG.A.P. standards.",
+      "Develop and provide a comprehensive induction training pack designed for all farm employees, ensuring they gain the required compliance knowledge for SIZA and GLOBAL G.A.P. standards.",
   },
   {
     icon: FileText,
@@ -53,17 +53,17 @@ const services = [
     icon: GraduationCap,
     title: "One-on-One Training",
     description:
-      "Personalized GlobalG.A.P and Siza training sessions tailored to your specific operational needs.",
+      "Personalized GLOBAL G.A.P. and SIZA training sessions tailored to your specific operational needs.",
   },
 ];
 
 const certifications = [
-  { name: "Global G.A.P", description: "International farm assurance" },
-  { name: "Siza Social", description: "Social compliance" },
-  { name: "Siza Environmental", description: "Environmental standards" },
-  { name: "Grasp", description: "Risk assessment" },
-  { name: "Tesco Nurture", description: "UK retailer standard" },
-  { name: "Albert Heijn", description: "Dutch quality protocol" },
+  { name: "GLOBAL G.A.P.", description: "International farm assurance" },
+  { name: "SIZA Social", description: "Social compliance" },
+  { name: "SIZA Environmental", description: "Environmental standards" },
+  { name: "GRASP", description: "Risk assessment" },
+  { name: "TESCO Nurture", description: "UK retailer standard" },
+  { name: "ALBERT HEIJN", description: "Dutch quality protocol" },
   { name: "SPRING", description: "Sustainable practices" },
   { name: "LEAF", description: "Linking environment & farming" },
 ];
