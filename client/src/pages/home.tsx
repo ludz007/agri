@@ -41,7 +41,7 @@ const services = [
     icon: FileText,
     title: "Paperless System",
     description:
-      "Modern digital solutions to streamline your documentation and reduce administrative burden.",
+      "A paperless system is a cost and time-saving system.",
   },
   {
     icon: HeadphonesIcon,
