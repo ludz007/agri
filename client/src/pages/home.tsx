@@ -430,7 +430,7 @@ export default function Home() {
                     <h3 className="font-bold text-xl">
                       Audit Compliance Consulting
                     </h3>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="font-bold text-xl">
                       & Agri Training
                     </p>
                   </div>
