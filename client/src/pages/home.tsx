@@ -59,10 +59,10 @@ const services = [
 
 const certifications = [
   { name: "GLOBALG.A.P.", description: "International farm assurance" },
-  { name: "SIZA Social", description: "Social compliance" },
-  { name: "SIZA Environmental", description: "Environmental standards" },
+  { name: "SIZA SOCIAL", description: "Social compliance" },
+  { name: "SIZA ENVIRONMENTAL", description: "Environmental standards" },
   { name: "GRASP", description: "Risk assessment" },
-  { name: "TESCO Nurture", description: "UK retailer standard" },
+  { name: "TESCO NURTURE", description: "UK retailer standard" },
   { name: "ALBERT HEIJN", description: "Dutch quality protocol" },
   { name: "SPRING", description: "Sustainable practices" },
   { name: "LEAF", description: "Linking environment & farming" },
