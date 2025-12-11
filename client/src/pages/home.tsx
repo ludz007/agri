@@ -35,7 +35,7 @@ const services = [
     icon: BookOpen,
     title: "Induction Training Pack",
     description:
-      "Develop and provide a comprehensive induction training pack designed for all farm employees, ensuring they gain the required compliance knowledge for SIZA and GLOBAL G.A.P. standards.",
+      "Develop and provide a comprehensive induction training pack designed for all farm employees, ensuring they gain the required compliance knowledge for SIZA and GLOBALG.A.P. standards.",
   },
   {
     icon: FileText,
@@ -53,12 +53,12 @@ const services = [
     icon: GraduationCap,
     title: "One-on-One Training",
     description:
-      "Personalized GLOBAL G.A.P. and SIZA training sessions tailored to your specific operational needs.",
+      "Personalized GLOBALG.A.P. and SIZA training sessions tailored to your specific operational needs.",
   },
 ];
 
 const certifications = [
-  { name: "GLOBAL G.A.P.", description: "International farm assurance" },
+  { name: "GLOBALG.A.P.", description: "International farm assurance" },
   { name: "SIZA Social", description: "Social compliance" },
   { name: "SIZA Environmental", description: "Environmental standards" },
   { name: "GRASP", description: "Risk assessment" },
